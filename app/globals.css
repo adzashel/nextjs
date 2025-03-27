@@ -36,3 +36,22 @@ a {
   grid-template-columns: repeat(4 , 1fr);
   gap: 2rem;
 }
+
+form {
+  margin-bottom: 1rem;
+}
+
+.form {
+  padding: 12px;
+  border-radius: 12px;
+
+}
+
+.btn-sbmt {
+  padding: 12px 20px;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 12px;
+}

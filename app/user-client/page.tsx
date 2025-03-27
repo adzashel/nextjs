@@ -1,9 +1,9 @@
+// defined this is client component
 "use client";
 import { useEffect, useState } from "react";
 import { inter } from "../ui/fonts";
 
 
-// defined this is client component
 
 type User = {
     id: number,
