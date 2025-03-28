@@ -6,8 +6,6 @@ type Clients = {
 }
 
 
-
-
 const getClients = async () => {
     const response = await fetch('https://67e5832118194932a5865cf4.mockapi.io/clients');
     const clients = await response.json();
